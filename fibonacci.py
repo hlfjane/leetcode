@@ -1,6 +1,6 @@
 def main():
     max_num=100
-    dict_fib=dict.fromkeys(range(100))
+    dict_fib=dict.fromkeys(range(max_num))
     dict_fib[0],dict_fib[1] = 0, 1
     for i in range(2,max_num):
         dict_fib[i] = dict_fib[i-1]+dict_fib[i-2]
