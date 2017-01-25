@@ -1,6 +1,7 @@
 """Given a string, find the length of the longest substring without repeating characters."""
 """Given "abcabcbb", the answer is "abc", which the length is 3."""
 """Given "pwwkew", the answer is "wke", with the length of 3. Note that the answer must be a substring, "pwke" is a subsequence and not a substring."""
+"""s[0:0] is empty, s[0:1] == s[0], [i,j)"""
 class Solution(object):
     def __init__(self):
         pass
