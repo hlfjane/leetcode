@@ -1,5 +1,5 @@
 """Implement regular expression matching with support for '.' and '*'."""
-"""'.' Matches any single character."""\
+"""'.' Matches any single character."""
 """'*' Matches zero or more of the preceding element."""
 """Using dynamic programming, as the overall result can be treated as the problem solution result"""
 """setup 2 dimention arrary, dp[m+1][n+1] where dp[0][0] is True, m is the len(s), n is len(p)"""
